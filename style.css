@@ -1,0 +1,51 @@
+:root {
+    --textColor: white;
+    --tintColor: rgba(125, 125, 125, 0.4);
+    --borderColor: rgb(68, 68, 255, 0.7) solid;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("Forest1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article {
+    font-size: 22px;
+    color: var(--textColor);
+    margin-left: 10rem;
+    margin-top: 5rem;
+    max-width: 50ch;
+    padding: 1.5rem;
+    line-height: 1.7;
+    border: 4px var(--borderColor);
+    background: var(--tintColor);
+
+}
+
+h1 {
+    text-align: center;
+    color: var(--textColor);
+    font-size: 50px;
+}
+
+li {
+    font-size: 30px;
+}
+
+header+main {
+    margin-top: 5rem;
+}
+
+.topBar {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    background-color: #32a852;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
