@@ -2,6 +2,7 @@
     --textColor: white;
     --tintColor: rgba(125, 125, 125, 0.4);
     --borderColor: rgb(68, 68, 255, 0.7) solid;
+    --borderImgColor: rgb(20, 193, 49) solid;
 }
 
 body {
@@ -32,12 +33,49 @@ h1 {
     font-size: 50px;
 }
 
-li {
+header+main {
+    margin-top: 5rem;
+}
+
+.modShowcase {
+    max-width: 60ch;
+}
+
+.modShowcase div {
+    border: 4px var(--borderImgColor);
+    padding: 0;
+    width: fit-content;
+}
+
+.modShowcase img {
+    display: block;
+}
+
+.modShowcase h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.modShowcase h3 {
     font-size: 30px;
 }
 
-header+main {
-    margin-top: 5rem;
+.modShowcase ol li {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.modShowcase ul li {
+    font-size: 22px;
+}
+
+.modShowcase p {
+    font-size: 22px;
+}
+
+
+.subText {
+    font-size: 20px;
 }
 
 .topBar {
@@ -47,5 +85,10 @@ header+main {
     background-color: #32a852;
     font-size: 20px;
     font-weight: bold;
-    
+
+}
+
+.disclaimer {
+    font-weight: bold;
+    text-decoration: underline;
 }
