@@ -15,14 +15,14 @@ body {
 }
 
 article {
-    font-size: 22px;
+    font-size: 2vw;
     color: var(--textColor);
-    margin-left: 10rem;
-    margin-top: 5rem;
+    margin-left: 12vw;
+    margin-top: 8vw;
     max-width: 50ch;
     padding: 1.5rem;
     line-height: 1.7;
-    border: 4px var(--borderColor);
+    border: 0.25rem var(--borderColor);
     background: var(--tintColor);
 
 }
@@ -30,7 +30,7 @@ article {
 h1 {
     text-align: center;
     color: var(--textColor);
-    font-size: 50px;
+    font-size: 4vw;
 }
 
 header+main {
@@ -42,40 +42,37 @@ header+main {
 }
 
 .modShowcase div {
-    border: 4px var(--borderImgColor);
+    border: 0.25rem var(--borderImgColor);
     padding: 0;
     width: fit-content;
 }
 
 .modShowcase img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .modShowcase h2 {
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 1;
 }
 
 .modShowcase h3 {
-    font-size: 30px;
+    font-size: 2.5vw;
 }
 
 .modShowcase ol li {
-    font-size: 25px;
+    font-size: 3vw;
     letter-spacing: 1px;
 }
 
 .modShowcase ul li {
-    font-size: 22px;
+    font-size: 1.7vw;
 }
 
 .modShowcase p {
-    font-size: 22px;
-}
-
-
-.subText {
-    font-size: 20px;
+    font-size: 1.85vw;
 }
 
 .topBar {
@@ -83,7 +80,7 @@ header+main {
     grid-auto-flow: column;
     place-items: center;
     background-color: #32a852;
-    font-size: 20px;
+    font-size: 2.2vw;
     font-weight: bold;
 
 }
